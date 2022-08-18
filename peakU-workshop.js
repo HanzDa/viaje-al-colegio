@@ -39,15 +39,15 @@ function viajeAlColegio() {
         let cuadra = 1;
         let noEstaEnElColegio = true;
         while (noEstaEnElColegio) {
-        historia += `${cuadra}, `
-        if (cuadra == 5) {
-            historia += `Cuadras más. Finalmente, luego de 30 minutos de caminata, ${personaje}
-            llega a su destino.`
+            historia += `${cuadra}, `
+            if (cuadra == 5) {
+                historia += `Cuadras más. Finalmente, luego de 30 minutos de caminata, ${personaje}
+                llega a su destino.`
 
-            noEstaEnElColegio = false;
+                noEstaEnElColegio = false;
+            }
+            cuadra++;
         }
-        cuadra++;
-    }
     }else {
         historia += "A lo que ella respondió que no"
         
